@@ -1,0 +1,9 @@
+{
+	"name": "mydatafactifer",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9f49e7ff-5fbb-4958-bb69-a47a694009f9",
+		"tenantId": "1660acad-20c8-46b8-8491-ba4cad610303"
+	}
+}
