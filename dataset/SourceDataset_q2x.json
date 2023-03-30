@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "apple.csv",
-				"container": "data"
+				"fileName": "movies.csv",
+				"container": "input"
 			}
 		}
 	}
