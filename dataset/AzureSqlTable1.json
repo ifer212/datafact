@@ -1,0 +1,49 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "article",
+				"type": "nvarchar"
+			},
+			{
+				"name": "word",
+				"type": "nvarchar"
+			},
+			{
+				"name": "plural_form",
+				"type": "nvarchar"
+			},
+			{
+				"name": "fem_form",
+				"type": "nvarchar"
+			},
+			{
+				"name": "word_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "semantic_field",
+				"type": "nvarchar"
+			},
+			{
+				"name": "english_translation",
+				"type": "nvarchar"
+			},
+			{
+				"name": "spanish_translation",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "words"
+		}
+	}
+}
